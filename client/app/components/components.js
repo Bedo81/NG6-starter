@@ -4,7 +4,8 @@ import About from './about/about';
 
 let componentModule = angular.module('app.components', [
   Home.name,
-  About.name
+  About.name,
+  Customer.name
 ]);
 
 export default componentModule;
